@@ -18,14 +18,23 @@ development:
   database: branch_development
   pool: 5
   username: postgres
+<<<<<<< HEAD
   password: postgres
+=======
+  password: POSTGRES
+>>>>>>> 29e994b1da6d0dce9998e3178d0b75f9dd6f511f
   host: localhost
   port: 5432
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
   # domain sockets, so uncomment these lines.
+<<<<<<< HEAD
   
+=======
+  #host: localhost
+  #port: 5432
+>>>>>>> 29e994b1da6d0dce9998e3178d0b75f9dd6f511f
 
   # Schema search path. The server defaults to $user,public
   #schema_search_path: myapp,sharedapp,public
@@ -45,7 +54,11 @@ test:
   database: branch_test
   pool: 5
   username: postgres
+<<<<<<< HEAD
   password: postgres
+=======
+  password: POSTGRES
+>>>>>>> 29e994b1da6d0dce9998e3178d0b75f9dd6f511f
   host: localhost
   port: 5432
 
@@ -55,6 +68,10 @@ production:
   database: branch_production
   pool: 5
   username: postgres
+<<<<<<< HEAD
   password: postgres
+=======
+  password: POSTGRES
+>>>>>>> 29e994b1da6d0dce9998e3178d0b75f9dd6f511f
   host: localhost
   port: 5432

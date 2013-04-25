@@ -1,7 +1,10 @@
 Branch::Application.routes.draw do
+<<<<<<< HEAD
   resources :cursos
 
 
+=======
+>>>>>>> 29e994b1da6d0dce9998e3178d0b75f9dd6f511f
   resources :materias
 
 

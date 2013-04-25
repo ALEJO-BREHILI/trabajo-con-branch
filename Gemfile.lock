@@ -31,8 +31,11 @@ GEM
       multi_json (~> 1.0)
     afm (0.2.0)
     arel (3.0.2)
+<<<<<<< HEAD
     bootstrap-will_paginate (0.0.9)
       will_paginate
+=======
+>>>>>>> 29e994b1da6d0dce9998e3178d0b75f9dd6f511f
     builder (3.0.4)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
@@ -140,7 +143,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+<<<<<<< HEAD
   bootstrap-will_paginate
+=======
+>>>>>>> 29e994b1da6d0dce9998e3178d0b75f9dd6f511f
   coffee-rails (~> 3.2.1)
   jquery-rails
   lazybox
@@ -154,3 +160,7 @@ DEPENDENCIES
   therubyracer
   twitter-bootstrap-rails
   uglifier (>= 1.0.3)
+<<<<<<< HEAD
+=======
+  will_paginate
+>>>>>>> 29e994b1da6d0dce9998e3178d0b75f9dd6f511f
