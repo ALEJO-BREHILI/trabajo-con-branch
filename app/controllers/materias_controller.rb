@@ -1,44 +1,40 @@
 class MateriasController < ApplicationController
-  # GET /materias
-  # GET /materias.json
+
   def index
-    @materias = Materia.all
+    @materias = Materia.search(params[:search]).page(params[:page]).per_page(10)
 
     respond_to do |format|
-      format.html # index.html.erb
+      format.html 
       format.json { render json: @materias }
     end
   end
 
-  # GET /materias/1
-  # GET /materias/1.json
+
   def show
     @materia = Materia.find(params[:id])
 
     respond_to do |format|
-      format.html # show.html.erb
+      format.html 
       format.json { render json: @materia }
     end
   end
 
-  # GET /materias/new
-  # GET /materias/new.json
+
   def new
     @materia = Materia.new
 
     respond_to do |format|
-      format.html # new.html.erb
+      format.html 
       format.json { render json: @materia }
     end
   end
 
-  # GET /materias/1/edit
+
   def edit
     @materia = Materia.find(params[:id])
   end
 
-  # POST /materias
-  # POST /materias.json
+
   def create
     @materia = Materia.new(params[:materia])
 
@@ -53,8 +49,7 @@ class MateriasController < ApplicationController
     end
   end
 
-  # PUT /materias/1
-  # PUT /materias/1.json
+
   def update
     @materia = Materia.find(params[:id])
 
@@ -69,8 +64,7 @@ class MateriasController < ApplicationController
     end
   end
 
-  # DELETE /materias/1
-  # DELETE /materias/1.json
+
   def destroy
     @materia = Materia.find(params[:id])
     @materia.destroy

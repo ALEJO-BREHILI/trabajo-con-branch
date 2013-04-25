@@ -15,7 +15,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'bootstrap-will_paginate'
+gem 'will_paginate'
 gem 'simple_form'
 gem 'twitter-bootstrap-rails'
 gem 'libv8'
